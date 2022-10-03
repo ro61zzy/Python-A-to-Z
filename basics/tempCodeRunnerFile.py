@@ -1,1 +1,2 @@
-user_input =
+else:
+    return "Please enter an integer"
