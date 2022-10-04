@@ -16,6 +16,8 @@ def validate_n_execute():
                 print(calculated_value)
             elif user_input_number == 0:
                 print ("You entered a zero, please enter a positive valid number")
+            else:
+                print("you entered a negative number")
 
     except ValueError:
         print("Please enter a positive integer, Don't ruin my code")
